@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.slide {
+  margin: 2rem 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
